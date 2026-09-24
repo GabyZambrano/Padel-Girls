@@ -38,7 +38,7 @@
 </div><div id="toast" class="toast"></div>
 
 <script>
-const KEY="padelGirls_v2";
+const KEY="padelGirls_v3";
 const initial={name:"Pádel Girls",date:new Date().toISOString().slice(0,10),courts:4,players:[],matches:[]};
 let S=initial;
 try{const saved=JSON.parse(localStorage.getItem(KEY));if(saved&&typeof saved==="object")S={...initial,...saved}}catch(e){}
